@@ -134,7 +134,6 @@ namespace DAL
             return cidadaos;
         }
 
-
         public void AtualizarCidadao(Cidadao cidadao)
         {
             using (IDbConnection dbConnection = mConn.AbrirConexao())

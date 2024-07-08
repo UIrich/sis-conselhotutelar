@@ -1728,19 +1728,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alan Miguel\\.nuget\\packages\\": {}
+    "C:\\Users\\Ulrich\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\Alan Miguel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\BLL\\obj\\",
+      "projectPath": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\Ulrich\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alan Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ulrich\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1754,11 +1754,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\DAL\\DAL.csproj"
+            "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\model\\model.csproj": {
-              "projectPath": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\model\\model.csproj"
+            "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\model\\model.csproj": {
+              "projectPath": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\model\\model.csproj"
             }
           }
         }
@@ -1796,7 +1796,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

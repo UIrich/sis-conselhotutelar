@@ -48,19 +48,20 @@
             panel1.Controls.Add(btnVoltar);
             panel1.Controls.Add(lblRelatorios);
             panel1.Location = new Point(0, 1);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(710, 58);
+            panel1.Size = new Size(621, 44);
             panel1.TabIndex = 0;
             // 
             // btnVoltar
             // 
             btnVoltar.BackgroundImageLayout = ImageLayout.Stretch;
             btnVoltar.ImeMode = ImeMode.NoControl;
-            btnVoltar.Location = new Point(21, 14);
+            btnVoltar.Location = new Point(18, 10);
             btnVoltar.Margin = new Padding(2);
             btnVoltar.Name = "btnVoltar";
             btnVoltar.RightToLeft = RightToLeft.No;
-            btnVoltar.Size = new Size(43, 34);
+            btnVoltar.Size = new Size(38, 26);
             btnVoltar.TabIndex = 16;
             btnVoltar.UseVisualStyleBackColor = true;
             btnVoltar.Click += btnVoltar_Click;
@@ -70,17 +71,18 @@
             lblRelatorios.AutoSize = true;
             lblRelatorios.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblRelatorios.ForeColor = SystemColors.Window;
-            lblRelatorios.Location = new Point(223, 14);
+            lblRelatorios.Location = new Point(195, 10);
             lblRelatorios.Name = "lblRelatorios";
-            lblRelatorios.Size = new Size(219, 28);
+            lblRelatorios.Size = new Size(175, 21);
             lblRelatorios.TabIndex = 0;
             lblRelatorios.Text = "Gerador de Relatórios";
             // 
             // btnSalvarRelatorio
             // 
-            btnSalvarRelatorio.Location = new Point(469, 214);
+            btnSalvarRelatorio.Location = new Point(410, 160);
+            btnSalvarRelatorio.Margin = new Padding(3, 2, 3, 2);
             btnSalvarRelatorio.Name = "btnSalvarRelatorio";
-            btnSalvarRelatorio.Size = new Size(94, 29);
+            btnSalvarRelatorio.Size = new Size(82, 22);
             btnSalvarRelatorio.TabIndex = 1;
             btnSalvarRelatorio.Text = "Procurar";
             btnSalvarRelatorio.UseVisualStyleBackColor = true;
@@ -91,9 +93,10 @@
             btnGerarRelatorio.BackColor = Color.RoyalBlue;
             btnGerarRelatorio.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnGerarRelatorio.ForeColor = SystemColors.Window;
-            btnGerarRelatorio.Location = new Point(432, 498);
+            btnGerarRelatorio.Location = new Point(378, 374);
+            btnGerarRelatorio.Margin = new Padding(3, 2, 3, 2);
             btnGerarRelatorio.Name = "btnGerarRelatorio";
-            btnGerarRelatorio.Size = new Size(131, 53);
+            btnGerarRelatorio.Size = new Size(115, 40);
             btnGerarRelatorio.TabIndex = 3;
             btnGerarRelatorio.Text = "Gerar";
             btnGerarRelatorio.UseVisualStyleBackColor = false;
@@ -102,58 +105,61 @@
             // lblCaminhoRelatorio
             // 
             lblCaminhoRelatorio.AutoSize = true;
-            lblCaminhoRelatorio.Location = new Point(90, 193);
+            lblCaminhoRelatorio.Location = new Point(79, 145);
             lblCaminhoRelatorio.Name = "lblCaminhoRelatorio";
-            lblCaminhoRelatorio.Size = new Size(255, 20);
+            lblCaminhoRelatorio.Size = new Size(203, 15);
             lblCaminhoRelatorio.TabIndex = 1;
             lblCaminhoRelatorio.Text = "Escolha o caminho para salvar o PDF:";
             // 
             // lblColaborador
             // 
             lblColaborador.AutoSize = true;
-            lblColaborador.Location = new Point(90, 117);
+            lblColaborador.Location = new Point(79, 88);
             lblColaborador.Name = "lblColaborador";
-            lblColaborador.Size = new Size(158, 20);
+            lblColaborador.Size = new Size(124, 15);
             lblColaborador.TabIndex = 5;
             lblColaborador.Text = "Escolha o colaborador";
             // 
             // cboxColaborador
             // 
             cboxColaborador.FormattingEnabled = true;
-            cboxColaborador.Location = new Point(90, 140);
+            cboxColaborador.Location = new Point(79, 105);
+            cboxColaborador.Margin = new Padding(3, 2, 3, 2);
             cboxColaborador.Name = "cboxColaborador";
-            cboxColaborador.Size = new Size(201, 28);
+            cboxColaborador.Size = new Size(176, 23);
             cboxColaborador.TabIndex = 6;
             // 
             // txtCaminhoRelatorio
             // 
-            txtCaminhoRelatorio.Location = new Point(90, 216);
+            txtCaminhoRelatorio.Location = new Point(79, 162);
+            txtCaminhoRelatorio.Margin = new Padding(3, 2, 3, 2);
             txtCaminhoRelatorio.Name = "txtCaminhoRelatorio";
-            txtCaminhoRelatorio.Size = new Size(362, 27);
+            txtCaminhoRelatorio.Size = new Size(317, 23);
             txtCaminhoRelatorio.TabIndex = 2;
             // 
             // lblObservacoes
             // 
             lblObservacoes.AutoSize = true;
-            lblObservacoes.Location = new Point(90, 273);
+            lblObservacoes.Location = new Point(79, 205);
             lblObservacoes.Name = "lblObservacoes";
-            lblObservacoes.Size = new Size(183, 20);
+            lblObservacoes.Size = new Size(144, 15);
             lblObservacoes.TabIndex = 8;
             lblObservacoes.Text = "Observações do Relatório:";
             // 
             // txtObservacao
             // 
-            txtObservacao.Location = new Point(90, 296);
+            txtObservacao.Location = new Point(79, 222);
+            txtObservacao.Margin = new Padding(3, 2, 3, 2);
             txtObservacao.Name = "txtObservacao";
-            txtObservacao.Size = new Size(473, 160);
+            txtObservacao.Size = new Size(414, 121);
             txtObservacao.TabIndex = 9;
             txtObservacao.Text = "";
             // 
             // frmGerarRelatorio
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(685, 596);
+            ClientSize = new Size(599, 447);
             Controls.Add(txtObservacao);
             Controls.Add(lblObservacoes);
             Controls.Add(cboxColaborador);
@@ -163,6 +169,8 @@
             Controls.Add(txtCaminhoRelatorio);
             Controls.Add(btnSalvarRelatorio);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             Name = "frmGerarRelatorio";
             StartPosition = FormStartPosition.CenterScreen;

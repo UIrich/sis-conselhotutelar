@@ -50,9 +50,9 @@
             // 
             label10.AutoSize = true;
             label10.ForeColor = Color.Red;
-            label10.Location = new Point(47, 120);
+            label10.Location = new Point(41, 90);
             label10.Name = "label10";
-            label10.Size = new Size(15, 20);
+            label10.Size = new Size(12, 15);
             label10.TabIndex = 67;
             label10.Text = "*";
             // 
@@ -60,34 +60,35 @@
             // 
             label3.AutoSize = true;
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(47, 67);
+            label3.Location = new Point(41, 50);
             label3.Name = "label3";
-            label3.Size = new Size(15, 20);
+            label3.Size = new Size(12, 15);
             label3.TabIndex = 62;
             label3.Text = "*";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(163, 120);
+            label1.Location = new Point(143, 90);
             label1.Name = "label1";
-            label1.Size = new Size(66, 20);
+            label1.Size = new Size(51, 15);
             label1.TabIndex = 60;
             label1.Text = "Telefone";
             // 
             // txtTelCidadao
             // 
-            txtTelCidadao.Location = new Point(162, 143);
+            txtTelCidadao.Location = new Point(142, 107);
+            txtTelCidadao.Margin = new Padding(3, 2, 3, 2);
             txtTelCidadao.Name = "txtTelCidadao";
-            txtTelCidadao.Size = new Size(209, 27);
+            txtTelCidadao.Size = new Size(183, 23);
             txtTelCidadao.TabIndex = 3;
             // 
             // txtID
             // 
-            txtID.Location = new Point(186, 323);
+            txtID.Location = new Point(163, 242);
             txtID.Margin = new Padding(2);
             txtID.Name = "txtID";
-            txtID.Size = new Size(43, 27);
+            txtID.Size = new Size(38, 23);
             txtID.TabIndex = 57;
             txtID.Visible = false;
             // 
@@ -96,9 +97,10 @@
             btnLimparCidadao.BackColor = Color.RoyalBlue;
             btnLimparCidadao.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLimparCidadao.ForeColor = SystemColors.Window;
-            btnLimparCidadao.Location = new Point(47, 315);
+            btnLimparCidadao.Location = new Point(41, 236);
+            btnLimparCidadao.Margin = new Padding(3, 2, 3, 2);
             btnLimparCidadao.Name = "btnLimparCidadao";
-            btnLimparCidadao.Size = new Size(109, 40);
+            btnLimparCidadao.Size = new Size(95, 30);
             btnLimparCidadao.TabIndex = 5;
             btnLimparCidadao.Text = "Limpar";
             btnLimparCidadao.UseVisualStyleBackColor = false;
@@ -109,9 +111,10 @@
             btnAplicarCidadao.BackColor = Color.RoyalBlue;
             btnAplicarCidadao.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAplicarCidadao.ForeColor = SystemColors.Window;
-            btnAplicarCidadao.Location = new Point(261, 315);
+            btnAplicarCidadao.Location = new Point(228, 236);
+            btnAplicarCidadao.Margin = new Padding(3, 2, 3, 2);
             btnAplicarCidadao.Name = "btnAplicarCidadao";
-            btnAplicarCidadao.Size = new Size(110, 40);
+            btnAplicarCidadao.Size = new Size(96, 30);
             btnAplicarCidadao.TabIndex = 6;
             btnAplicarCidadao.Text = "Aplicar";
             btnAplicarCidadao.UseVisualStyleBackColor = false;
@@ -119,82 +122,87 @@
             // 
             // txtEmailCidadao
             // 
-            txtEmailCidadao.Location = new Point(48, 197);
+            txtEmailCidadao.Location = new Point(42, 148);
+            txtEmailCidadao.Margin = new Padding(3, 2, 3, 2);
             txtEmailCidadao.Name = "txtEmailCidadao";
-            txtEmailCidadao.Size = new Size(323, 27);
+            txtEmailCidadao.Size = new Size(283, 23);
             txtEmailCidadao.TabIndex = 4;
             // 
             // lblSenhaUser
             // 
             lblSenhaUser.AutoSize = true;
-            lblSenhaUser.Location = new Point(48, 174);
+            lblSenhaUser.Location = new Point(42, 130);
             lblSenhaUser.Name = "lblSenhaUser";
-            lblSenhaUser.Size = new Size(52, 20);
+            lblSenhaUser.Size = new Size(41, 15);
             lblSenhaUser.TabIndex = 50;
             lblSenhaUser.Text = "E-mail";
             // 
             // txtIdadeCidadao
             // 
-            txtIdadeCidadao.Location = new Point(48, 143);
+            txtIdadeCidadao.Location = new Point(42, 107);
+            txtIdadeCidadao.Margin = new Padding(3, 2, 3, 2);
             txtIdadeCidadao.Name = "txtIdadeCidadao";
-            txtIdadeCidadao.Size = new Size(108, 27);
+            txtIdadeCidadao.Size = new Size(95, 23);
             txtIdadeCidadao.TabIndex = 2;
             // 
             // lblUsernameUser
             // 
             lblUsernameUser.AutoSize = true;
-            lblUsernameUser.Location = new Point(58, 120);
+            lblUsernameUser.Location = new Point(51, 90);
             lblUsernameUser.Name = "lblUsernameUser";
-            lblUsernameUser.Size = new Size(47, 20);
+            lblUsernameUser.Size = new Size(36, 15);
             lblUsernameUser.TabIndex = 47;
             lblUsernameUser.Text = "Idade";
             // 
             // txtNomeCidadao
             // 
-            txtNomeCidadao.Location = new Point(48, 90);
+            txtNomeCidadao.Location = new Point(42, 68);
+            txtNomeCidadao.Margin = new Padding(3, 2, 3, 2);
             txtNomeCidadao.Name = "txtNomeCidadao";
-            txtNomeCidadao.Size = new Size(324, 27);
+            txtNomeCidadao.Size = new Size(284, 23);
             txtNomeCidadao.TabIndex = 1;
             // 
             // lblNomeUser
             // 
             lblNomeUser.AutoSize = true;
-            lblNomeUser.Location = new Point(58, 67);
+            lblNomeUser.Location = new Point(51, 50);
             lblNomeUser.Name = "lblNomeUser";
-            lblNomeUser.Size = new Size(50, 20);
+            lblNomeUser.Size = new Size(40, 15);
             lblNomeUser.TabIndex = 45;
             lblNomeUser.Text = "Nome";
             // 
             // panel1
             // 
             panel1.BackColor = Color.RoyalBlue;
-            panel1.Location = new Point(0, -5);
+            panel1.Location = new Point(0, -4);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(428, 47);
+            panel1.Size = new Size(374, 35);
             panel1.TabIndex = 68;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(47, 227);
+            label2.Location = new Point(41, 170);
             label2.Name = "label2";
-            label2.Size = new Size(56, 20);
+            label2.Size = new Size(45, 15);
             label2.TabIndex = 69;
             label2.Text = "Família";
             // 
             // cboxFamiliaCidadao
             // 
             cboxFamiliaCidadao.FormattingEnabled = true;
-            cboxFamiliaCidadao.Location = new Point(47, 250);
+            cboxFamiliaCidadao.Location = new Point(41, 188);
+            cboxFamiliaCidadao.Margin = new Padding(3, 2, 3, 2);
             cboxFamiliaCidadao.Name = "cboxFamiliaCidadao";
-            cboxFamiliaCidadao.Size = new Size(324, 28);
+            cboxFamiliaCidadao.Size = new Size(284, 23);
             cboxFamiliaCidadao.TabIndex = 70;
             // 
             // frmCadCidadao
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(426, 395);
+            ClientSize = new Size(373, 296);
             Controls.Add(cboxFamiliaCidadao);
             Controls.Add(label2);
             Controls.Add(panel1);
@@ -211,6 +219,8 @@
             Controls.Add(lblUsernameUser);
             Controls.Add(txtNomeCidadao);
             Controls.Add(lblNomeUser);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             Name = "frmCadCidadao";
             StartPosition = FormStartPosition.CenterScreen;

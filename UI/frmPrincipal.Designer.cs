@@ -64,7 +64,7 @@
             toolStripPrincipal.Items.AddRange(new ToolStripItem[] { toolStripNovo, toolStripCad, toolStripSeparator2, toolStripView, toolStripSeparator3, toolStripRelatorio, toolStripSair, toolStripSeparator1, toolStripEditar, toolStripSeparator4, toolStripOpcoes });
             toolStripPrincipal.Location = new Point(0, 0);
             toolStripPrincipal.Name = "toolStripPrincipal";
-            toolStripPrincipal.Size = new Size(1065, 30);
+            toolStripPrincipal.Size = new Size(932, 26);
             toolStripPrincipal.TabIndex = 0;
             toolStripPrincipal.Text = "toolStrip1";
             // 
@@ -73,33 +73,33 @@
             toolStripNovo.DropDownItems.AddRange(new ToolStripItem[] { toolStripAtendimento, toolStripCaso, toolStripCidadao, toolStripFamilia });
             toolStripNovo.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStripNovo.Name = "toolStripNovo";
-            toolStripNovo.Size = new Size(65, 27);
+            toolStripNovo.Size = new Size(55, 23);
             toolStripNovo.Text = "Novo";
             // 
             // toolStripAtendimento
             // 
             toolStripAtendimento.Name = "toolStripAtendimento";
-            toolStripAtendimento.Size = new Size(224, 28);
+            toolStripAtendimento.Size = new Size(158, 24);
             toolStripAtendimento.Text = "Atendimento";
             toolStripAtendimento.Click += toolStripAtendimento_Click;
             // 
             // toolStripCaso
             // 
             toolStripCaso.Name = "toolStripCaso";
-            toolStripCaso.Size = new Size(224, 28);
+            toolStripCaso.Size = new Size(158, 24);
             toolStripCaso.Text = "Caso";
             // 
             // toolStripCidadao
             // 
             toolStripCidadao.Name = "toolStripCidadao";
-            toolStripCidadao.Size = new Size(224, 28);
+            toolStripCidadao.Size = new Size(158, 24);
             toolStripCidadao.Text = "Cidadão";
             toolStripCidadao.Click += toolStripCidadao_Click;
             // 
             // toolStripFamilia
             // 
             toolStripFamilia.Name = "toolStripFamilia";
-            toolStripFamilia.Size = new Size(224, 28);
+            toolStripFamilia.Size = new Size(158, 24);
             toolStripFamilia.Text = "Família";
             toolStripFamilia.Click += toolStripFamilia_Click;
             // 
@@ -108,53 +108,53 @@
             toolStripCad.DropDownItems.AddRange(new ToolStripItem[] { toolStripUser });
             toolStripCad.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStripCad.Name = "toolStripCad";
-            toolStripCad.Size = new Size(97, 27);
+            toolStripCad.Size = new Size(81, 23);
             toolStripCad.Text = "Cadastrar";
             // 
             // toolStripUser
             // 
             toolStripUser.Name = "toolStripUser";
-            toolStripUser.Size = new Size(189, 28);
+            toolStripUser.Size = new Size(154, 24);
             toolStripUser.Text = "Colaborador";
             toolStripUser.Click += toolStripUser_Click;
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(6, 30);
+            toolStripSeparator2.Size = new Size(6, 26);
             // 
             // toolStripView
             // 
             toolStripView.DropDownItems.AddRange(new ToolStripItem[] { toolStripViewCadastros });
             toolStripView.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStripView.Name = "toolStripView";
-            toolStripView.Size = new Size(96, 27);
+            toolStripView.Size = new Size(79, 23);
             toolStripView.Text = "Visualizar";
             // 
             // toolStripViewCadastros
             // 
             toolStripViewCadastros.Name = "toolStripViewCadastros";
-            toolStripViewCadastros.Size = new Size(169, 28);
+            toolStripViewCadastros.Size = new Size(139, 24);
             toolStripViewCadastros.Text = "Cadastros";
             toolStripViewCadastros.Click += toolStripViewCadastros_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(6, 30);
+            toolStripSeparator3.Size = new Size(6, 26);
             // 
             // toolStripRelatorio
             // 
             toolStripRelatorio.DropDownItems.AddRange(new ToolStripItem[] { toolStripGerar });
             toolStripRelatorio.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStripRelatorio.Name = "toolStripRelatorio";
-            toolStripRelatorio.Size = new Size(99, 27);
+            toolStripRelatorio.Size = new Size(82, 23);
             toolStripRelatorio.Text = "Relatórios";
             // 
             // toolStripGerar
             // 
             toolStripGerar.Name = "toolStripGerar";
-            toolStripGerar.Size = new Size(136, 28);
+            toolStripGerar.Size = new Size(112, 24);
             toolStripGerar.Text = "Gerar";
             toolStripGerar.Click += toolStripGerar_Click;
             // 
@@ -163,52 +163,52 @@
             toolStripSair.Alignment = ToolStripItemAlignment.Right;
             toolStripSair.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStripSair.Name = "toolStripSair";
-            toolStripSair.Size = new Size(38, 27);
+            toolStripSair.Size = new Size(31, 23);
             toolStripSair.Text = "Sair";
             toolStripSair.Click += toolStripSair_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(6, 30);
+            toolStripSeparator1.Size = new Size(6, 26);
             // 
             // toolStripEditar
             // 
             toolStripEditar.DropDownItems.AddRange(new ToolStripItem[] { toolStripEditarColab, senhaToolStripMenuItem });
             toolStripEditar.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStripEditar.Name = "toolStripEditar";
-            toolStripEditar.Size = new Size(68, 27);
+            toolStripEditar.Size = new Size(57, 23);
             toolStripEditar.Text = "Editar";
             // 
             // toolStripEditarColab
             // 
             toolStripEditarColab.Name = "toolStripEditarColab";
-            toolStripEditarColab.Size = new Size(189, 28);
+            toolStripEditarColab.Size = new Size(154, 24);
             toolStripEditarColab.Text = "Colaborador";
             // 
             // senhaToolStripMenuItem
             // 
             senhaToolStripMenuItem.Name = "senhaToolStripMenuItem";
-            senhaToolStripMenuItem.Size = new Size(189, 28);
+            senhaToolStripMenuItem.Size = new Size(154, 24);
             senhaToolStripMenuItem.Text = "Senha";
             // 
             // toolStripSeparator4
             // 
             toolStripSeparator4.Name = "toolStripSeparator4";
-            toolStripSeparator4.Size = new Size(6, 30);
+            toolStripSeparator4.Size = new Size(6, 26);
             // 
             // toolStripOpcoes
             // 
             toolStripOpcoes.DropDownItems.AddRange(new ToolStripItem[] { toolStripPermissoes });
             toolStripOpcoes.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStripOpcoes.Name = "toolStripOpcoes";
-            toolStripOpcoes.Size = new Size(81, 27);
+            toolStripOpcoes.Size = new Size(68, 23);
             toolStripOpcoes.Text = "Opções";
             // 
             // toolStripPermissoes
             // 
             toolStripPermissoes.Name = "toolStripPermissoes";
-            toolStripPermissoes.Size = new Size(177, 28);
+            toolStripPermissoes.Size = new Size(145, 24);
             toolStripPermissoes.Text = "Permissões";
             toolStripPermissoes.Click += toolStripPermissoes_Click;
             // 
@@ -217,9 +217,10 @@
             panelPrincipal.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panelPrincipal.BackColor = Color.RoyalBlue;
             panelPrincipal.Controls.Add(label1);
-            panelPrincipal.Location = new Point(0, 33);
+            panelPrincipal.Location = new Point(0, 25);
+            panelPrincipal.Margin = new Padding(3, 2, 3, 2);
             panelPrincipal.Name = "panelPrincipal";
-            panelPrincipal.Size = new Size(1065, 59);
+            panelPrincipal.Size = new Size(932, 44);
             panelPrincipal.TabIndex = 1;
             // 
             // label1
@@ -228,31 +229,33 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Window;
-            label1.Location = new Point(379, 13);
+            label1.Location = new Point(332, 10);
             label1.Name = "label1";
-            label1.Size = new Size(282, 28);
+            label1.Size = new Size(220, 21);
             label1.TabIndex = 0;
             label1.Text = "Sistema do Conselho Tutelar";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 670);
+            label2.Location = new Point(10, 502);
             label2.Name = "label2";
-            label2.Size = new Size(212, 20);
+            label2.Size = new Size(167, 15);
             label2.TabIndex = 2;
             label2.Text = "Desenvolvido por @gurjonzito";
             // 
             // frmPrincipal
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1065, 713);
+            ClientSize = new Size(932, 535);
             Controls.Add(label2);
             Controls.Add(panelPrincipal);
             Controls.Add(toolStripPrincipal);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             Name = "frmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;

@@ -54,8 +54,9 @@
             panelVerCadastrados.BackColor = Color.RoyalBlue;
             panelVerCadastrados.Controls.Add(lblVerCadastrados);
             panelVerCadastrados.Location = new Point(1, 1);
+            panelVerCadastrados.Margin = new Padding(3, 2, 3, 2);
             panelVerCadastrados.Name = "panelVerCadastrados";
-            panelVerCadastrados.Size = new Size(1110, 64);
+            panelVerCadastrados.Size = new Size(971, 48);
             panelVerCadastrados.TabIndex = 0;
             // 
             // lblVerCadastrados
@@ -63,80 +64,88 @@
             lblVerCadastrados.AutoSize = true;
             lblVerCadastrados.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblVerCadastrados.ForeColor = SystemColors.Window;
-            lblVerCadastrados.Location = new Point(303, 19);
+            lblVerCadastrados.Location = new Point(265, 14);
             lblVerCadastrados.Name = "lblVerCadastrados";
-            lblVerCadastrados.Size = new Size(446, 31);
+            lblVerCadastrados.Size = new Size(366, 25);
             lblVerCadastrados.TabIndex = 0;
             lblVerCadastrados.Text = "Visualizar pessoas e famílias cadastradas";
             // 
             // dataGridCidadao
             // 
             dataGridCidadao.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridCidadao.Location = new Point(132, 210);
+            dataGridCidadao.Location = new Point(116, 158);
+            dataGridCidadao.Margin = new Padding(3, 2, 3, 2);
             dataGridCidadao.Name = "dataGridCidadao";
+            dataGridCidadao.ReadOnly = true;
             dataGridCidadao.RowHeadersWidth = 51;
-            dataGridCidadao.Size = new Size(377, 188);
+            dataGridCidadao.Size = new Size(330, 141);
             dataGridCidadao.TabIndex = 1;
             dataGridCidadao.CellMouseDoubleClick += dataGridCidadao_CellMouseDoubleClick;
             // 
             // dataGridColaborador
             // 
             dataGridColaborador.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridColaborador.Location = new Point(132, 541);
+            dataGridColaborador.Location = new Point(116, 406);
+            dataGridColaborador.Margin = new Padding(3, 2, 3, 2);
             dataGridColaborador.Name = "dataGridColaborador";
+            dataGridColaborador.ReadOnly = true;
             dataGridColaborador.RowHeadersWidth = 51;
-            dataGridColaborador.Size = new Size(814, 188);
+            dataGridColaborador.Size = new Size(712, 141);
             dataGridColaborador.TabIndex = 2;
             dataGridColaborador.CellMouseDoubleClick += dataGridColaborador_CellMouseDoubleClick;
             // 
             // dataGridFamilia
             // 
             dataGridFamilia.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridFamilia.Location = new Point(569, 210);
+            dataGridFamilia.Location = new Point(498, 158);
+            dataGridFamilia.Margin = new Padding(3, 2, 3, 2);
             dataGridFamilia.Name = "dataGridFamilia";
+            dataGridFamilia.ReadOnly = true;
             dataGridFamilia.RowHeadersWidth = 51;
-            dataGridFamilia.Size = new Size(377, 188);
+            dataGridFamilia.Size = new Size(330, 141);
             dataGridFamilia.TabIndex = 3;
             // 
             // lblVerCidadao
             // 
             lblVerCidadao.AutoSize = true;
-            lblVerCidadao.Location = new Point(135, 119);
+            lblVerCidadao.Location = new Point(118, 89);
             lblVerCidadao.Name = "lblVerCidadao";
-            lblVerCidadao.Size = new Size(65, 20);
+            lblVerCidadao.Size = new Size(51, 15);
             lblVerCidadao.TabIndex = 4;
             lblVerCidadao.Text = "Cidadão";
             // 
             // lblVerFamilia
             // 
             lblVerFamilia.AutoSize = true;
-            lblVerFamilia.Location = new Point(569, 118);
+            lblVerFamilia.Location = new Point(498, 88);
             lblVerFamilia.Name = "lblVerFamilia";
-            lblVerFamilia.Size = new Size(56, 20);
+            lblVerFamilia.Size = new Size(45, 15);
             lblVerFamilia.TabIndex = 5;
             lblVerFamilia.Text = "Família";
             // 
             // lblVerColaborador
             // 
             lblVerColaborador.AutoSize = true;
-            lblVerColaborador.Location = new Point(132, 453);
+            lblVerColaborador.Location = new Point(116, 340);
             lblVerColaborador.Name = "lblVerColaborador";
-            lblVerColaborador.Size = new Size(93, 20);
+            lblVerColaborador.Size = new Size(73, 15);
             lblVerColaborador.TabIndex = 6;
             lblVerColaborador.Text = "Colaborador";
             // 
             // txtVerCidadao
             // 
-            txtVerCidadao.Location = new Point(132, 158);
+            txtVerCidadao.Location = new Point(116, 118);
+            txtVerCidadao.Margin = new Padding(3, 2, 3, 2);
             txtVerCidadao.Name = "txtVerCidadao";
-            txtVerCidadao.Size = new Size(203, 27);
+            txtVerCidadao.Size = new Size(178, 23);
             txtVerCidadao.TabIndex = 7;
             // 
             // btnPesquisarCidadao
             // 
-            btnPesquisarCidadao.Location = new Point(341, 157);
+            btnPesquisarCidadao.Location = new Point(298, 118);
+            btnPesquisarCidadao.Margin = new Padding(3, 2, 3, 2);
             btnPesquisarCidadao.Name = "btnPesquisarCidadao";
-            btnPesquisarCidadao.Size = new Size(149, 29);
+            btnPesquisarCidadao.Size = new Size(130, 22);
             btnPesquisarCidadao.TabIndex = 8;
             btnPesquisarCidadao.Text = "Pesquisar por nome";
             btnPesquisarCidadao.UseVisualStyleBackColor = true;
@@ -144,25 +153,28 @@
             // 
             // btnPesquisarFamilia
             // 
-            btnPesquisarFamilia.Location = new Point(778, 157);
+            btnPesquisarFamilia.Location = new Point(681, 118);
+            btnPesquisarFamilia.Margin = new Padding(3, 2, 3, 2);
             btnPesquisarFamilia.Name = "btnPesquisarFamilia";
-            btnPesquisarFamilia.Size = new Size(152, 29);
+            btnPesquisarFamilia.Size = new Size(133, 22);
             btnPesquisarFamilia.TabIndex = 10;
             btnPesquisarFamilia.Text = "Pesquisar por nome";
             btnPesquisarFamilia.UseVisualStyleBackColor = true;
             // 
             // txtVerFamilia
             // 
-            txtVerFamilia.Location = new Point(569, 158);
+            txtVerFamilia.Location = new Point(498, 118);
+            txtVerFamilia.Margin = new Padding(3, 2, 3, 2);
             txtVerFamilia.Name = "txtVerFamilia";
-            txtVerFamilia.Size = new Size(203, 27);
+            txtVerFamilia.Size = new Size(178, 23);
             txtVerFamilia.TabIndex = 9;
             // 
             // btnPesquisarColaborador
             // 
-            btnPesquisarColaborador.Location = new Point(450, 489);
+            btnPesquisarColaborador.Location = new Point(394, 367);
+            btnPesquisarColaborador.Margin = new Padding(3, 2, 3, 2);
             btnPesquisarColaborador.Name = "btnPesquisarColaborador";
-            btnPesquisarColaborador.Size = new Size(163, 29);
+            btnPesquisarColaborador.Size = new Size(143, 22);
             btnPesquisarColaborador.TabIndex = 12;
             btnPesquisarColaborador.Text = "Pesquisar por nome";
             btnPesquisarColaborador.UseVisualStyleBackColor = true;
@@ -170,16 +182,18 @@
             // 
             // txtVerColaborador
             // 
-            txtVerColaborador.Location = new Point(132, 491);
+            txtVerColaborador.Location = new Point(116, 368);
+            txtVerColaborador.Margin = new Padding(3, 2, 3, 2);
             txtVerColaborador.Name = "txtVerColaborador";
-            txtVerColaborador.Size = new Size(312, 27);
+            txtVerColaborador.Size = new Size(274, 23);
             txtVerColaborador.TabIndex = 11;
             // 
             // btnLimparTudo
             // 
-            btnLimparTudo.Location = new Point(132, 780);
+            btnLimparTudo.Location = new Point(116, 585);
+            btnLimparTudo.Margin = new Padding(3, 2, 3, 2);
             btnLimparTudo.Name = "btnLimparTudo";
-            btnLimparTudo.Size = new Size(118, 29);
+            btnLimparTudo.Size = new Size(103, 22);
             btnLimparTudo.TabIndex = 13;
             btnLimparTudo.Text = "Limpar tudo";
             btnLimparTudo.UseVisualStyleBackColor = true;
@@ -187,9 +201,9 @@
             // 
             // frmVerCadastrados
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1082, 870);
+            ClientSize = new Size(947, 652);
             Controls.Add(btnLimparTudo);
             Controls.Add(btnPesquisarColaborador);
             Controls.Add(txtVerColaborador);
@@ -204,6 +218,8 @@
             Controls.Add(dataGridColaborador);
             Controls.Add(dataGridCidadao);
             Controls.Add(panelVerCadastrados);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             Name = "frmVerCadastrados";
             StartPosition = FormStartPosition.CenterScreen;

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\model\\model.csproj": {}
+    "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\model\\model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\model\\model.csproj": {
+    "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\model\\model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\model\\model.csproj",
+        "projectUniqueName": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\model\\model.csproj",
         "projectName": "model",
-        "projectPath": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\model\\model.csproj",
-        "packagesPath": "C:\\Users\\Alan Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan Miguel\\source\\repos\\sis-conselhotutelar\\model\\obj\\",
+        "projectPath": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\model\\model.csproj",
+        "packagesPath": "C:\\Users\\Ulrich\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Ulrich\\Downloads\\sis-conselhotutelar-main\\model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alan Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ulrich\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

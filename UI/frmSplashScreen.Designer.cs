@@ -38,18 +38,20 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(62, 329);
+            progressBar1.Location = new Point(54, 247);
+            progressBar1.Margin = new Padding(3, 2, 3, 2);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(322, 32);
+            progressBar1.Size = new Size(282, 24);
             progressBar1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(45, -1);
+            pictureBox1.Location = new Point(39, -1);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(349, 262);
+            pictureBox1.Size = new Size(305, 196);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
@@ -60,11 +62,14 @@
             // 
             // frmSplashScreen
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(456, 406);
+            ClientSize = new Size(399, 304);
             Controls.Add(pictureBox1);
             Controls.Add(progressBar1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "frmSplashScreen";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmSplashScreen";

@@ -14,3 +14,18 @@ C:\Users\Alan Miguel\source\repos\sis-conselhotutelar\DAL\obj\Debug\net8.0-windo
 C:\Users\Alan Miguel\source\repos\sis-conselhotutelar\DAL\obj\Debug\net8.0-windows\refint\DAL.dll
 C:\Users\Alan Miguel\source\repos\sis-conselhotutelar\DAL\obj\Debug\net8.0-windows\DAL.pdb
 C:\Users\Alan Miguel\source\repos\sis-conselhotutelar\DAL\obj\Debug\net8.0-windows\ref\DAL.dll
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\bin\Debug\net8.0-windows\DAL.deps.json
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\bin\Debug\net8.0-windows\DAL.dll
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\bin\Debug\net8.0-windows\DAL.pdb
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\bin\Debug\net8.0-windows\model.dll
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\bin\Debug\net8.0-windows\model.pdb
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.csproj.AssemblyReference.cache
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfoInputs.cache
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfo.cs
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.csproj.CoreCompileInputs.cache
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.csproj.Up2Date
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.dll
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\refint\DAL.dll
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\DAL.pdb
+D:\Users\Ulrich\Downloads\sis-conselhotutelar-main\DAL\obj\Debug\net8.0-windows\ref\DAL.dll

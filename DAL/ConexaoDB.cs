@@ -14,7 +14,7 @@ namespace DAL
     {
         public MySqlConnection mConn;
 
-        public string conec = "server=localhost;database=bd_conselho;user=root;password=1234;";
+        public string conec = "server=localhost;database=bd_conselho;user=root;password=admin;";
 
         public MySqlConnection AbrirConexao()
         { 
